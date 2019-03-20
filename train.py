@@ -141,15 +141,15 @@ if __name__ == "__main__":
 
     save_model =False
     args = Utilities.process_arg("-save")
-    out_dir = "Users/ngshuling 1/Desktop/models"
-    csvs_folder_path = "/Users/ngshuling 1/Desktop/yy_fashion.csv"
+    out_dir = "/content/drive/My Drive/models"
+    csvs_folder_path = "/content/drive/My Drive/yy_fashion.csv"
     category = "fashion"
     save = "true"
 
     if save == "t" or save == "T" or save == "true":
         save_model = True
 
-    train_csv_path = "/Users/ngshuling 1/Desktop/yy_fashion.csv"
+    train_csv_path = "/content/drive/My Drive/yy_fashion.csv"
 
     csv_helper = CsvHelper()
     csv_helper.set_csv(train_csv_path) # set csv file as train_csv_path
