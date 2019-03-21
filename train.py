@@ -142,7 +142,7 @@ if __name__ == "__main__":
     save_model =False
     args = Utilities.process_arg("-save")
     out_dir = "/content/drive/My Drive/models"
-    csvs_folder_path = "/content/drive/My Drive/yy_fashion.csv"
+    csvs_folder_path = "/content/drive/My Drive/fashionfull.csv"
     category = "fashion"
     save = "true"
 
