@@ -149,7 +149,7 @@ if __name__ == "__main__":
     if save == "t" or save == "T" or save == "true":
         save_model = True
 
-    train_csv_path = "/content/drive/My Drive/yy_fashion.csv"
+    train_csv_path = "/content/drive/My Drive/fashionfull.csv"
 
     csv_helper = CsvHelper()
     csv_helper.set_csv(train_csv_path) # set csv file as train_csv_path
