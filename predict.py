@@ -86,7 +86,7 @@ def do_predict(label,category,csvs_folder_path):
 if __name__ == "__main__":
 
     args = Utilities.process_arg()
-    in_dir ="/content/drive/My Drive/models"
+    in_dir ="/content/drive/My Drive/models/"
     csvs_folder_path= "/content/drive/My Drive/csvs"
     category = "fashion"
 
