@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
     args = Utilities.process_arg()
     in_dir ="/content/drive/My Drive/models/"
-    csvs_folder_path= "/content/drive/My Drive/csvs"
+    csvs_folder_path= "/content/drive/My Drive/csvs/"
     category = "fashion"
 
     labels = get_labels(in_dir)
